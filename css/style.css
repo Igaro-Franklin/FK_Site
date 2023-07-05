@@ -1,0 +1,354 @@
+/*
+
+laranja: #ff5900
+azul: #001cb8
+cinza: #F8F9FA
+
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ------------------------------------------ HOME ------------------------------------------ */
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: #ff5900;
+}
+
+.container-home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container-home-text{
+    margin: 0 50px;
+}
+
+.container-home-text #text-home{
+    color: #F8F9FA;
+}
+
+.container-home-text button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #001cb8;
+    color: #F8F9FA;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px black;
+    transition: .6s;
+}
+
+.container-home-text button:hover{
+    background-color: black;
+}
+
+
+/* ------------------------------------------ Serviços ------------------------------------------ */
+
+#servicos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: url(/Imagens/img/Background/1230265_3074.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.container-servicos{
+    width: 90%;
+    height: 100%;
+    margin: 5%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-servicos-card{
+    width: 350px;
+    height: 400px;
+    border: 4px double black;
+    padding: 2px 15px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f8f9faa1;
+}
+
+.container-servicos-card #title-servicos{
+    text-align: center;
+    margin: 5px auto 10px;
+    color: #001cb8;
+}
+
+
+/* ------------------------------------------ Projetos ------------------------------------------ */
+
+#projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000629;
+}
+
+.container-projetos-landingpage, .container-projetos-institucional, .container-projetos-portfolio{
+    width: 80%;
+    margin: 5% 10% 0;
+}
+
+.title-projetos{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    margin: 20px;
+    color: #F8F9FA;
+}
+
+
+.container-moldura{
+    width: 100%;
+    height: auto;
+    padding: 10px 7px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1000px 0;
+    justify-content: space-around;
+    background-color: #f8f9fa54;
+}
+
+.card-projeto01, .card-projeto02, .card-projeto03{
+    width: 80%;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00062954;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.card-img-prin{
+    width: 36%;
+    height: auto;
+}
+
+.card-img-prin img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+}
+
+.card-img-seg{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-img-seg img{
+    width: 23%;
+    border-radius: 5px;
+    box-shadow: 1px 2px black;
+}
+
+.img-port-prin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px;
+}
+
+.img-port-prin img{
+    width: 70%;
+    min-width: 380px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #F8F9FA;
+}
+
+.images-port{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images-port img{
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #F8F9FA;
+}
+
+.container-projetos-portfolio{
+    background-color: #001cb83b;
+    border-radius: 0 0 600px 600px;
+}
+
+
+/* ------------------------------------------ Preços ------------------------------------------ */
+
+#preco{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(/Imagens/img/Background/01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#preco h1{
+    margin: 20px;
+    padding: 10px 0;
+    background-color: #ff5900;
+    border-radius: 20px;
+    color: #F8F9FA;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+.container-preco{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-preco{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 5px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #ff5900;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.card-preco h3{
+    color: #F8F9FA;
+    height: 50px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    background: url(/Imagens/img/Background/02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+.card-preco .preco{
+    margin: 0 10px;
+    background-color: #000000;
+    border-radius: 100px 0;
+}
+
+.card-preco .preco p{
+    color: #F8F9FA;
+}
+
+.de{
+    color: red;
+    text-decoration:line-through;
+}
+
+.por{
+    font-size: 20px;
+    color: #00ff00;
+}
+
+#preco a{
+    margin-bottom: 20px;
+}
+
+#preco a button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5900;
+    box-shadow: 3px 3px 6px black;
+    transition: .6s;
+}
+
+#preco a button:hover{
+    transform: scale(1.1);
+    color: #F8F9FA;
+}
+
+
+/* ------------------------------------------ Contato ------------------------------------------ */
+
+#contato{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background-color: #000629;
+}
+
+.container-contato{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contato a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ff5900;
+}
+
+/* ----------------------------------------------------- BOTÃO IR PARA O TOPO ----------------------------------------------------- */
+
+#ir-top{
+    position: fixed;
+    right: -100px;
+    bottom: 20px;
+    transition: right 0.3s ease;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    z-index: 4;
+}
+
+#ir-top.mostrar{
+    right: 20px;
+}
+
+#ir-top:hover{
+    cursor: pointer;
+}
+
+#ir-top i {
+    color: blue;
+    font-size: 35px;
+    filter: drop-shadow(2px 2px 2px black);
+}

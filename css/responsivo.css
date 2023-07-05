@@ -1,0 +1,75 @@
+@media (max-width: 880px){
+    /* ------------------------------------------ HOME ------------------------------------------ */
+
+    .container-home{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+
+    .container-home-text{
+        margin: 0 10px;
+    }
+
+
+    
+    /* ------------------------------------------ Serviços ------------------------------------------ */
+
+    .container-servicos-card{
+        margin: 5px auto;
+    }
+
+
+    /* ------------------------------------------ Projetos ------------------------------------------ */
+
+    .container-projetos-landingpage, .container-projetos-institucional, .container-projetos-portfolio{
+        width: 90%;
+        margin: 2% 5% 0;
+    }
+
+    .card-projeto01, .card-projeto02, .card-projeto03{
+        width: 96%;
+        height: auto;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #00062954;
+        border-radius: 20px;
+        box-shadow: 3px 3px 6px black;
+    }
+
+    .card-img-prin{
+        width: 90%;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .card-img-seg{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card-img-seg img{
+        width: 40%;
+        margin: 10px;
+    }
+
+    /* ------------------------------------------ Precos ------------------------------------------ */
+
+    .container-preco{
+        flex-wrap: wrap;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    #preco{
+        height: auto;
+    }
+}
