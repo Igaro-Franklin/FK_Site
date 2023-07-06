@@ -89,7 +89,7 @@ html{
     background-color: #f8f9faa1;
 }
 
-.container-servicos-card #title-servicos{
+.container-servicos-card .title-servicos{
     text-align: center;
     margin: 5px auto 10px;
     color: #001cb8;
